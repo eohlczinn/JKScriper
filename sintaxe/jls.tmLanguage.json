@@ -1,0 +1,35 @@
+{
+  "name": "JLScript",
+  "scopeName": "source.jls",
+  "patterns": [
+    {
+      "name": "keyword.control.jls",
+      "match": "\\b(var|funcao|se|senao|return|mostrar)\\b"
+    },
+    {
+      "name": "constant.language.jls",
+      "match": "\\b(true|false|null)\\b"
+    },
+    {
+      "name": "string.quoted.double.jls",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "constant.numeric.jls",
+      "match": "\\b[0-9]+\\.?[0-9]*\\b"
+    },
+    {
+      "name": "comment.line.jls",
+      "match": "//.*$"
+    },
+    {
+      "name": "entity.name.function.jls",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*(?=\\s)"
+    },
+    {
+      "name": "variable.other.jls",
+      "match": "\\bmate\\b"
+    }
+  ]
+}

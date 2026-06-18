@@ -1,0 +1,34 @@
+{
+    "name": "jlscript",
+    "displayName": "JLScript",
+    "description": "Syntax highlighting pra JLScript",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "jls",
+                "aliases": [
+                    "JLScript",
+                    "jls"
+                ],
+                "extensions": [
+                    ".jls"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "jls",
+                "scopeName": "source.jls",
+                "path": "./syntaxes/jls.tmLanguage.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+var nome = "Iago"
+mostrar "Salve " + nome
+
+funcao soma a b {
+  return a + b
+}
+
+var resultado = soma 10 5
+mostrar "10 + 5 = " + resultado
+
+se resultado > 10 {
+  mostrar "Deu mais que 10"
+} senao {
+  mostrar "Deu 10 ou menos"
+}
+
+mostrar "Raiz de 16: " + mate.sqrt 16
